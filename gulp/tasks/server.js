@@ -1,9 +1,9 @@
 var gulp    = require('gulp');
 var connect = require('gulp-connect');
 
-gulp.task('connect', function() {
+gulp.task('server', function() {
   connect.server({
     root: ['dist'],
-    port: 3000
+    port: 5000
   });
 });
