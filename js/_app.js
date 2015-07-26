@@ -5,7 +5,7 @@ let { Route, DefaultRoute, RouteHandler, Link } = Router;
 let App    = require('./app');
 let Hello  = require('./hello');
 
-var routes = (
+let routes = (
   <Route handler={App}>
     <DefaultRoute handler={Hello} />
   </Route>
