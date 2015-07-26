@@ -1,9 +1,9 @@
-var React  = require('react');
-var Router = require('react-router');
-var { Route, DefaultRoute, RouteHandler, Link } = Router;
+let React  = require('react');
+let Router = require('react-router');
+let { Route, DefaultRoute, RouteHandler, Link } = Router;
 
-var App    = require('./app');
-var Hello  = require('./hello');
+let App    = require('./app');
+let Hello  = require('./hello');
 
 var routes = (
   <Route handler={App}>
